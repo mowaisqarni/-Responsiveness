@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+header{
+    background-image: url("https://10websites-design-to-html-css.netlify.app/automotive-car-design/car-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 97vh;
+  padding: 0px 200px;
+}
+.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+ .nav .logo{
+    color: white;
+    font-size: 50px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding:20px;
+}
+button{
+    background-color: #00c2ff;
+    border: none;
+    color: white;
+    padding :15px;
+}
+footer{
+   height:3;
+    background-color: black;
+    padding: 40px 200px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 20px;
+}
+.item h5
+{
+    color: #00c2ff;
+}
+.item p{
+    color: white;
+}
+.content
+{
+    margin-top: 200px;
+    padding: 20px 0;
+}
+.content h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+ .content p {
+    font-size: 20px;
+    color:aliceblue;
+}
+@media all and (max-width:500px)
+{
+    header{
+    padding: 10px;
+   
+    }
+    .nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .nav button{
+        display:none ;
+    }
+    footer {
+        padding:10px;
+        flex-direction: column
+    };
+}
+ 
